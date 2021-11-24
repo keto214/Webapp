@@ -37,11 +37,6 @@ const Menus = [
     exact: false
   },
   {
-    name: 'About',
-    to: '/about',
-    exact: true
-  },
-  {
     name: 'Post product',
     to: '/postproduct',
     exact: true

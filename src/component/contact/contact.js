@@ -22,7 +22,7 @@ class Contact extends React.Component {
                   <div className="breadcrumb__text">
                     <h2>Contact</h2>
                     <div className="breadcrumb__option">
-                      <span>Contact</span>
+                      <span>Contact </span>
                     </div>
                   </div>
                 </div>

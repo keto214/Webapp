@@ -1,7 +1,6 @@
 import CategoryBegin from './component/CateGoryBegin/CategoryBegin';
 import Contact from './component/contact/contact';
 import ProductDetail from './component/ProductDetail/ProductDetail';
-import NotFound from './component/NotFound/NotFound';
 import Cart from './component/Cart/Cart';
 import PostProduct from './component/PostProduct/PostProduct';
 import UserDetail from './component/UserDetail/UserDetail';
@@ -16,6 +15,7 @@ import UserDetailAdmin from './component/Admin/detail/UserDetailAdmin';
 import ProductDetailAdmin from './component/Admin/detail/ProductDetailAdmin';
 import ProductRating from './component/Cart/ProductRating';
 import OrderDetailAdmin from './component/Admin/detail/OrderDetailAdmin';
+
 import React from 'react';
 
 const Routes = [
@@ -99,15 +99,11 @@ const Routes = [
           exact: false,
           main: () => < ProductRating />
      },
+     
      {
           path: '/admin/order-detail',
           exact: false,
           main: () => <OrderDetailAdmin />
-     },
-     {
-          path: '',
-          exact: false,
-          main: () => < NotFound />
      } //only end of array
 ]
 
