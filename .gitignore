@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+/node_modules
+=======
+node_modules
+.vscode
+.idea
+>>>>>>> d6594085000e1efc17a64e4e1254f611c53f9ced
+/build
