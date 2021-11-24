@@ -31,7 +31,7 @@ class PostProduct extends React.Component {
       price: 99000,
       slug: 'electronic',
       desc: `decsription of your product`,
-      urlPhoto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQE1iDI1fNEj6lp118ibSXiJDioneC8wbJryXhM5xPWoH9Hl2vc&usqp=CAU',
+      urlPhoto: 'https://gcdn.pbrd.co/images/gfPOSrYU2F6h.png',
       isRedirect: 1,
       accountID: 0,
       date: 0,

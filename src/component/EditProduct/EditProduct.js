@@ -12,7 +12,7 @@ class EditProduct extends React.Component {
       price: 99000,
       slug: 'electronic',
       desc: `decsription of your product`,
-      urlPhoto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQE1iDI1fNEj6lp118ibSXiJDioneC8wbJryXhM5xPWoH9Hl2vc&usqp=CAU',
+      urlPhoto: 'https://flic.kr/p/2mLHusa',
       status: false,
       isRedirect: false,
       date: '',
