@@ -55,11 +55,11 @@
       <div class="footer__instagram">
         <div class="footer__instagram__avatar">
           <div class="footer__instagram__avatar--pic">
-            <img src="img/footer/instagram-avatar.jpg" alt="">
+            <img src="https://gcdn.pbrd.co/images/gfPOSrYU2F6h.png" alt="">
           </div>
           <div class="footer__instagram__avatar--text">
-            <h5>@ T.cryblog</h5>
-            <span>23,7k follower</span>
+            <h5> Tcry Blog</h5>
+         
             
           </div>
         </div>
@@ -108,12 +108,41 @@
               <script>document.write(new Date().getFullYear());</script> All rights reserved | Make by T.Cry Team <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://www.facebook.com/long.thuy.526/"
                 target="_blank">T.Cry Teams</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              
             </p>
           </div>
         </div>
       </div>
     </div>
   </footer>
+
+  <!-- Messenger Plugin chat Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Plugin chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "111770571332811");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v12.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
   <script src="//cdn.ckeditor.com/4.6.1/basic/ckeditor.js"></script>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
