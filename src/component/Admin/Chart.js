@@ -91,7 +91,7 @@ class Chart extends React.Component {
           >
             <option value="products">product type</option>
             <option value="orders">order quantity</option>
-            <option value="post">post product</option>
+            <option value="post">Post quantity</option>
             <option value="payment">payment methods (%)</option>
           </select>
         </div>
