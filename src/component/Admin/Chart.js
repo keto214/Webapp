@@ -89,7 +89,7 @@ class Chart extends React.Component {
             className="form-control-sm"
             onChange={this.onChange}
           >
-            <option value="products">product type</option>
+            <option value="products">Product type</option>
             <option value="orders">order quantity</option>
             <option value="post">post product</option>
             <option value="payment">payment methods (%)</option>
